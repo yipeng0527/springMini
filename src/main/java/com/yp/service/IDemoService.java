@@ -5,4 +5,6 @@ package com.yp.service;
  */
 public interface IDemoService {
     String getName(String name);
+
+    Integer add (Integer a,Integer b);
 }

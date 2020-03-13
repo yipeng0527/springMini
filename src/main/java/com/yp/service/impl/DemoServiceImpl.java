@@ -13,4 +13,9 @@ public class DemoServiceImpl implements IDemoService {
     public String getName(String name) {
         return "My name is " + name;
     }
+
+    @Override
+    public Integer add(Integer a, Integer b) {
+        return a + b;
+    }
 }
